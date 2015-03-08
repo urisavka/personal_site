@@ -1,0 +1,33 @@
+name = Personal
+description = A Bootstrap Clean Blog sub-theme.
+core = 7.x
+base theme = bootstrap
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+regions[help] = 'Help'
+regions[content] = 'Content'
+regions[footer] = 'Footer primary'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Theme Settings
+;;;;;;;;;;;;;;;;;;;;;
+
+; Header
+; --------------
+settings[header_image] = 'field_image'
+
+; Social links
+; --------------
+settings[social_facebook] = 'https://www.facebook.com'
+settings[social_twitter] = 'https://twitter.com'
+settings[social_github] = 'https://github.com'
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = assets/css/clean-blog.min.css
+stylesheets[all][] = assets/css/theme.min.css
